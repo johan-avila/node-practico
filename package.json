@@ -1,0 +1,16 @@
+{
+  "name": "practico-node-backend",
+  "version": "0.0.1",
+  "description": "backend de platzi social en el curso practico de node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "jest"
+  },
+  "author": "@johan-avila",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
