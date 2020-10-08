@@ -1,3 +1,5 @@
+//En este archivo vamos a generar una base para todas las response
+
 exports.succes = (req,res, message, status)=>{
     let statusCode = status || 200
     res.status(statusCode).send({

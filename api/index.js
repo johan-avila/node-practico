@@ -1,12 +1,12 @@
 const express = require("express")
 
 const config = require("../config.js") 
-const user = require("./components/user/network")
+const users = require("./components/user/network")
 
 const app = express()
 
 //Router
-app.use("/api/user", user)
+app.use("/api/users", users)
 
 
 //listen api
