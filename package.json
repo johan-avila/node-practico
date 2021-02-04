@@ -4,6 +4,7 @@
   "description": "backend de platzi social en el curso practico de node",
   "main": "index.js",
   "scripts": {
+    "start": "node api/index",
     "dev": "nodemon api/index",
     "test": "jest"
   },
